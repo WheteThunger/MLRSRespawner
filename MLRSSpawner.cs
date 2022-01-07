@@ -1,7 +1,7 @@
 namespace Oxide.Plugins
 {
     [Info("MLRS Respawner", "WhiteThunder", "1.0.0")]
-    [Description("Respawns MLRS at Destert Military Bases if missing when the plugin loads.")]
+    [Description("Respawns MLRS at Desert Military Bases if missing when the plugin loads.")]
     internal class MLRSRespawner : CovalencePlugin
     {
         private void OnServerInitialized()
